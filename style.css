@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+
+}
+body{
+    background: #0F1624;
+    font-family: 'poppins';
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1660px;
+    margin: 0 auto;
+}
+.header-porfolio {
+    margin: 46px 0;
+ }
+.header-porfolio-body {
+    display: flex;
+    /* justify-content: space-between; */
+ }
+.header-porfolio-logo {
+    display: flex;
+    align-items: center;
+ }
+ .header-porfolio-logo > p{
+    margin-right: 218px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+     line-height: 45px;
+ }
+.logo {
+    margin-right: 12px;       
+ }
+.menu {
+    margin-right: 435px;
+ }
+ .menu a {
+    margin: 0 49px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+ }
+ .icons{
+    display: flex;
+ }
+.icons a {
+    margin: 0 15px;
+ }
+ /* porfolio */
+.porfolio {
+    margin-top: 145px;
+ }
+.porfolio-body { 
+    display: flex;
+    justify-content: space-between;
+}
+.porfolio-text { }
+.porfolio-titel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 144px;
+    margin-left: 60px;
+    margin-bottom: 25px;
+ }
+.porfolio-subtitel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #BCBCBC;
+    margin-left: 122px;
+    margin-bottom: 123px;
+ }
+.porfolio-btn {
+    width: 280px;
+    height: 80px;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    border-radius: 83px;
+    padding: 19px 63px;
+    margin-left: 169px;
+ }
+.porfolio-link{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+ }
+.porfolio-img {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 758px;
+ }     
+.porfolio-img img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 758px;
+    width: 758p;
+    animation-name: rotateSquare;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes rotateSquare{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* projects */
+.projects {
+    margin-top: 145px;
+ }
+.projects-titel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 144px;
+    margin-left: 60px;
+    margin-bottom: 93px;
+ }
+.project-body {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 220px;
+    row-gap: 97px;
+    justify-content: center;
+ }
+.project-item {
+    flex: 50%;
+    max-width: 550px;
+    box-shadow: 0px 0px 12px #FFFFFF;
+    border-radius: 50px 0px;
+    padding: 25px;
+ }
+.project { }
+.project p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 25px;
+    min-height: 166px;
+}
+.project-img { }
+.project-titel{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 88.5%;
+    margin-bottom: 54px;
+    margin-top: 25px;
+    text-align: center;
+    position: relative;
+}
+.project-titel::after{
+    content: '';
+    position: absolute;
+    left: 100px;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    border-radius: 83px;
+    width: 300px;
+    height: 4px;
+    bottom: -28px;
+}
+.project-btn{
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    border-radius: 83px;
+    padding: 15px 52px;
+}
+.project-btn a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+/* technologies */
+.technologies { 
+    margin-top: 145px;
+} 
+.technologies-titel{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    margin-left: 60px;
+    margin-bottom: 133px;
+}
+.technoligies-body {
+    max-width: 1330px;
+    margin: 0 auto;
+ }
+.technologies-item {
+    margin-top: 54px;
+ }
+.text {
+    display: flex;
+    justify-content: space-between;
+ }
+.skill {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+ }
+.level {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+ }
+.full-line {
+    width: 1320px;
+    height: 32.3px;
+    background: #162950;
+    border-radius: 83px;
+ }
+.progress-line {
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    border-radius: 83px;
+    width: 990px;
+    height: 32px;
+ }
+ .regular{
+    width: 660px;
+    height: 32px;
+ }
+ .beginner{
+    width: 330px;
+    height: 32px;
+}
+.technologies-img {
+    background-image: url(img/skilsskils.png);
+    height: 626px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 121px;
+}
+.skills-titel{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 52px;
+}
+.skills {
+    max-width: 1330px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+ }
+.skills-list { }
+.skill-item {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 32px;
+ }
+ /* about me */
+.about-me {
+    margin-top: 145px;
+ }
+.about-me-titel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    margin-bottom: 87px;
+    margin-left: 60px;
+ }
+.about-me-body {
+    display: flex;
+ }
+.about-me-item {
+    flex: 25%;
+    position: relative;
+ }
+.about-me-line {
+    height: 12px;
+    position: absolute;
+    width: 100%;
+    background-color: #FFFFFF;
+    background-color: #8e61d5;
+    top: 60px;
+    width: 0;
+    left: 200px;
+ }
+.year{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+}
+.about-me-dot {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    left: 50%;
+    top: 49px;
+ }
+.about-me-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 30px;
+ }
+ /* .about-me-left {
+    height: 12px; 
+    position: absolute;
+    width: 50%;
+    right: 0;
+    background-color: #FFFFFF;
+    top: 60px;
+  } */
+ /* .about-me-right {
+    height: 12px;
+    position: absolute;
+    width: 50%;
+    background-color: #FFFFFF;
+    top: 60px;
+  } */
+  .about-me:hover .year-2020{
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .about-me:hover .year-2021{
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  .about-me:hover .year-2022{
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+  }
+  .about-me:hover .year-2023{
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes changeColor{
+    from{
+        color: #FFFFFF;
+    }
+    to{
+        color: #8e61d5;
+    }
+  }
+  .about-me:hover .dot-2020{
+    animation-name: changeDot;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .about-me:hover .dot-2021{
+    animation-name: changeDot;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  .about-me:hover .dot-2022{
+    animation-name: changeDot;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+  }
+  .about-me:hover .dot-2023{
+    animation-name: changeDot;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes changeDot{
+    from{
+        background-color: #FFFFFF;
+    }
+    to{
+        background-color: #8e61d5;
+    }
+  }
+  .about-me:hover .line-2020{
+    animation-name: changeLine;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .about-me:hover .line-2021{
+    animation-name: changeLine;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  .about-me:hover .line-2022{
+    animation-name: changeLine;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+  }
+   @keyframes changeLine{
+    from{
+       width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+  /* footer */
+.footer { 
+    margin-top: 145px;
+    margin-bottom: 45px; 
+}
+.footer-body {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto; 
+ }
+.footer-element a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 63px;
+ }
+.footer-element p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 63px;
+}
+.footer-icons img {
+    width: 72px;
+    height: 72px;
+    margin: 0 32px;
+ }
+ .footer-icons{
+    display: flex;
+    align-items: center;
+ }
